@@ -8,7 +8,8 @@ def get_years_smoking_input() -> float:
             years_smoking_input = float(input(f"{'Tempo como fumante (em anos)'.ljust(35, '.')}: "))
             return years_smoking_input
         except ValueError:
-            print('\nPor favor, digite apenas números!')
+            print('\nPor favor, digite apenas números!\n'
+                  'Use . como separador decimal\n')
 
 
 def get_cigarette_price_input() -> float:
@@ -17,7 +18,8 @@ def get_cigarette_price_input() -> float:
             cigarette_price_input = float(input(f"{'Valor do maço'.ljust(35, '.')}: "))
             return cigarette_price_input
         except ValueError:
-            print('\nPor favor, digite apenas números!')
+            print('\nPor favor, digite apenas números!\n'
+                  'Use . como separador decimal\n')
 
 
 def get_cigarettes_per_day_input() -> float:
@@ -26,7 +28,8 @@ def get_cigarettes_per_day_input() -> float:
             cigarettes_per_day_input = float(input(f"{'Quantidade de maços por dia'.ljust(35, '.')}: "))
             return cigarettes_per_day_input
         except ValueError:
-            print('\nPor favor, digite apenas números!')
+            print('\nPor favor, digite apenas números!\n'
+                  'Use . como separador decimal\n')
 
 
 def convert_years_to_days(amount_of_years: float) -> float:

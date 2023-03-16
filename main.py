@@ -1,5 +1,14 @@
-# Nomes: André Fernandes Chamis
-# RM's: 97891
+# Nome: André Fernandes Chamis
+# RM: 97891
+
+# Nome: Gabriel Amorim Martins Gonçalves
+# RM: 550444
+
+# Nome: Fellipe Signorelli e Sousa Salerno
+# RM: 98123
+
+# Nome: Lucas Braun Mariano
+# RM: 550534
 
 
 def pegar_input_quantidade_de_anos_fumando() -> float:

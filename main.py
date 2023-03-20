@@ -57,7 +57,7 @@ def selecionar_mensagem_baseada_no_valor_gasto(dinheiro_gasto: float) -> str:
         return f"Com o valor R$ {dinheiro_gasto:,.2f}, você poderia ter dado entrada em um carro."
     elif dinheiro_gasto < 50_000:
         return f"Com o valor R$ {dinheiro_gasto:,.2f}, você poderia ter comprado um carro popular usado."
-    elif dinheiro_gasto >= 50_000:
+    else:
         # Esse bloco poderia ser um else, mas preferi manter assim por legibilidade
         return f"Com o valor R$ {dinheiro_gasto:,.2f}, você poderia ter comprado um carro zero."
 
